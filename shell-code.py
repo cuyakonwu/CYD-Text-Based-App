@@ -21,7 +21,7 @@ def bot():
     """
 
     if not responded:
-        msg.body('I only know about famous quotes and cats, sorry!')
+        msg.body('I don't know how to respond to that, sorry!')
     return str(resp)
 
 
